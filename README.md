@@ -1,11 +1,15 @@
 On conmmlind prompt (Windows) or Terminal (Unix) <br>
-address stands the real address <br>
+Before running this app, please run the following command, so it will install all dependecies.<br> 
+$ npm install <br>
+Then, run the following command to run the code.<br>
 $ node app.js -a address <br>
-for example: 
+address is the real address you should type in, so you can fetch geo and weather info based on this address. <br>
+For example: <br>
 $ node app.js -a 'Times Square, Manhattan, NY, USA' <br>
 
-It will fetch the geo location information (.json) from Google Map API
-and current weather information (.json) from Darksky.net. based on the adreess you type in.
+It will fetch the geo location information (.json) from Google Map API <br>
+and current weather information (.json) from Darksky.net. <br>
+based on the adreess you type in.
 
 The output will like the following:
 { address: 'Manhattan, NY 10036, USA',
