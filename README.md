@@ -1,6 +1,6 @@
 On conmmlind prompt (Windows) or Terminal (Unix) <br>
 address stands the real address <br>
->> node app.js -a address
+>> node app.js -a address <br>
 for example: 
 >> node app.js -a 'Times Square, Manhattan, NY, USA'
 
