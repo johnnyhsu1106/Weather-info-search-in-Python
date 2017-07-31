@@ -4,9 +4,9 @@ $ npm install <br>
 
 Three main files are enclosed in this repo. <br>
 
-app.js: The functionality is implemented by using the callback function.  <br>
-app-promise.js: The functionality is implemented by using Promise Object. <br>
-app-axios.js: The functionality is implemented by using API axios. <br> 
+app.js: <i>The functionality is implemented by using the callback function.</i>  <br>
+app-promise.js: <i>The functionality is implemented by using Promise Object.</i> <br>
+app-axios.js: <i>The functionality is implemented by using API axios.</i> <br> 
 
 You can run one of three files. 
 
@@ -31,5 +31,5 @@ The output will like the following: <br>
   pressure: 1015.74, <br>
   humidity: 0.69 }   <br>
   
-  Feel free to revise the geo.js and weather.js so these funciton can return/fetch the information you want.
+  Feel free to revise the geo.js and weather.js so these funcitons can return/fetch the information you want.
   
