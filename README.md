@@ -1,11 +1,22 @@
 On conmmlind prompt (Windows) or Terminal (Unix) <br>
 Before running this app, please run the following command, so it will install all dependecies.<br> 
 $ npm install <br>
-Then, run the following command to run the code.<br>
+
+Three main files are enclosed in this repo. <br>
+
+app.js: The functionality is implemented by using the callback function.  <br>
+app-promise.js: The functionality is implemented by using Promise Object. <br>
+app-axios.js: The functionality is implemented by using API axios. <br> 
+
+You can run one of three files. 
+
+Run the following command to run the code.<br>
 $ node app.js -a address <br>
 address is the real address you should type in, so you can fetch geo and weather info based on this address. <br>
 For example: <br>
 $ node app.js -a 'Times Square, Manhattan, NY, USA' <br>
+
+
 
 It will fetch the geo location information (.json) from Google Map API <br>
 and current weather information (.json) from Darksky.net. <br>
